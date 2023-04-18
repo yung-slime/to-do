@@ -1,0 +1,83 @@
+body{
+    background-color: #CCBCBC;
+}
+
+.add-to{
+    margin: 0;
+    border: 0;
+    background-color: #A288A6;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.add-to:hover, .add-to:active{
+    background-color: #BB9BB0;
+}
+
+.app-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.app-icon-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.text-feild-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.text-feild{
+    font: 1.5em monospace;
+    border: 2px solid #A288A6;
+    border-radius: 10px;
+
+}
+.to-do-list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+
+}
+.to-do{
+    flex-grow: 1;
+    padding: 10px;
+    border: 1.5px solid #A288A6;
+    border-radius: 5px;
+    background-color: #F1E3E4;
+    font: 2em monospace;
+    text-align: center;
+    box-shadow: 2px 2px 50px #BB9BB0;
+}
+.to-do:hover{
+    background-color: #BB9BB0;
+}
+.to-do-container{
+    margin: 50px;
+}
+.nothing-pop-up{
+    width: 50%;
+    height: 40%;
+    bottom: -100%;
+    box-shadow: 2px 2px 50px #BB9BB0;
+    position: fixed;
+    transition: bottom 0.5s ease-out; /* add a transition effect to the bottom property */
+}
+
+.message{
+    background-color: #A288A6;
+    font: 2em monospace;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
